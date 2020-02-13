@@ -42,6 +42,5 @@ describe('mood actions', () => {
     });
   });
 
-
 });
 

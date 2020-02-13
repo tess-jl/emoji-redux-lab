@@ -1,5 +1,5 @@
 const { createStore } = require('redux'); 
-import reducer from './reducers/moodsReducer';
+import reducer from './reducers/taskReducer';
 
 export default createStore(
   reducer,
