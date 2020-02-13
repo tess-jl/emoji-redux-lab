@@ -7,7 +7,9 @@ const Face = () => {
   const emojiFace = useSelector(getFace);
 
   return (
-    <p className={styles.Face}>{emojiFace}</p>
+    <p className={styles.Face}>
+      {emojiFace}
+    </p>
   );
 };
 
